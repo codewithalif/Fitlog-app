@@ -1,6 +1,7 @@
 
+
 import HeroSection from "./components/Hero/HeroSection";
-import CartSection from "./equipment/page";
+import CartSection from "./equipmant/page";
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
       
      <HeroSection/>
       <div id="CartItem">
-        <CartSection />
+        <CartSection/>
       </div>
       
     </>

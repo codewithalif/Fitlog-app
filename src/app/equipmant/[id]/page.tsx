@@ -1,4 +1,5 @@
-import CartButton from "@/app/components/Button/CartButton";
+
+import CartButton from "@/app/components/Button/CardButton";
 import Image from "next/image";
 
 const Page = async ({ params }: { params: { id: string } }) => {

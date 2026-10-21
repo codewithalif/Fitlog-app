@@ -2,10 +2,10 @@
 
 import { EquipmentContext } from "@/app/context/CartContext";
 import { useContext, useState } from "react";
-import TodaysPlanCart from "./TodaysPlanCart";
 import { GymData } from "@/app/Interface/GymData";
 import SavePlanCart from "./SavedPlanCart";
 import Link from "next/link";
+import TodaysPlanCart from "./TodaysPlanCart";
 
 const PlanTab = () => {
 
@@ -40,7 +40,7 @@ const PlanTab = () => {
                             : "text-[#858b96] hover:text-white"
                             }`}
                     >
-                        Today's Plan
+                        Today&apos;s Plan
                     </button>
 
                     {/* Saved */}
@@ -80,7 +80,7 @@ const PlanTab = () => {
                             <div className="grid grid-cols-1  gap-4 text-left">
                                 {addItem.map((workout: GymData) => (
                                     <TodaysPlanCart
-                                        key={workout.id}
+                                    key={workout.id}
                                         workout={workout}
                                     />
                                 ))}
