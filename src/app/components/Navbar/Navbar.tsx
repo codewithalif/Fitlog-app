@@ -76,7 +76,7 @@ const Navbar = () => {
                   <Link
                     href={link.href}
                     className={
-                      pathname === link.href
+                       pathname === link.href
                         ? "bg-[#c6ff00] text-black"
                         : "text-white"
                     }
