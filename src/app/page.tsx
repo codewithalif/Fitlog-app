@@ -1,7 +1,7 @@
 
 
 import HeroSection from "./components/Hero/HeroSection";
-import CartSection from "./equipmant/page";
+import CartSection from "./equipment/page";
 
 
 export default function Home() {
